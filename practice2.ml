@@ -39,7 +39,7 @@ let eval init list =
     List.fold_left f init [b1; ...; bn] is f (... (f (f init b1) b2) ...) bn
     init -> initial state, Right_l []
     list -> test case eg.[Right(1); Right(2)]
-    state-> the return state  eg. Left_l [-4; -3] / Right [2; 1]
+    state-> the return state  eg. Left_l [-4; -3] / Right_l [2; 1]
     var  -> variable in the list eg. Left(1) / Right(1)
 *)
   
